@@ -3859,28 +3859,28 @@ body.admin-bar .navbar-fixed-top {
 }
 
 @font-face {
-    font-family: silka regular;
-    src: url(../assets/fonts/silka-regular.woff) format('woff');
+    font-family: 'Work Sans', sans-serif;
+    src: url(../assets/fonts/WorkSans-Regular.woff) format('woff');
     font-display: swap;
 }
 
 @font-face {
-    font-family: silka medium;
-    src: url(../assets/fonts/silka-medium.woff) format('woff');
-    font-weight: medium;
+    font-family: 'Work Sans', sans-serif;
+    src: url(../assets/fonts/WorkSans-Medium.woff) format('woff');
+    font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: moranga bold;
-    src: url(../assets/fonts/moranga-bold.woff) format('woff');
+    font-family: 'Work Sans', sans-serif;
+    src: url(../assets/fonts/WorkSans-Bold.woff) format('woff');
     font-weight: 700;
     font-display: swap;
 }
 
 body {
     font-size: 14px;
-    font-family: silka regular;
+    font-family: 'Work Sans', sans-serif;
     line-height: 26px;
     letter-spacing: .5px;
     font-weight: 400;
@@ -3909,8 +3909,8 @@ html.is-animating .transition-fade {
 }
 
 @font-face {
-    font-family: neue montreal;
-    src: url(assets/fonts/NeueMontreal-Medium.woff2) format('woff2'), url(assets/NeueMontreal-Medium.woff) format('woff');
+    font-family: 'Work Sans', sans-serif;
+    src: url(assets/fonts/WorkSans-Medium2) format('woff2'), url(assets/WorkSans-Medium) format('woff');
     font-display: swap;
 }
 
@@ -3929,7 +3929,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: neue montreal
+    font-family: 'Work Sans', sans-serif;
 }
 
 a {
@@ -5311,12 +5311,12 @@ input[type=submit] {
 }
 
 .mansory {
-    padding: 40px 0 80px;
+    padding: 40px 0 17.5px;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 280px 280px 0px 280px;
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 1rem
 }
 
@@ -5461,7 +5461,7 @@ input[type=submit] {
 .content-about .button-toggle p {
     font-size: 14px;
     margin: 0;
-    font-family: silka medium;
+    font-family: 'Work Sans', sans-serif;
     line-height: 24px;
     letter-spacing: .25px;
     font-weight: 400;
@@ -5905,7 +5905,7 @@ input[type=submit] {
 
 .box-text h2 {
     font-size: 24px;
-    font-family: moranga bold;
+    font-family: 'Work Sans', sans-serif;
     line-height: 32px;
     font-weight: 400;
     color: #0d1117;
@@ -5914,7 +5914,7 @@ input[type=submit] {
 
 .box-text .content-title p {
     font-size: 14px;
-    font-family: silka regular;
+    font-family: 'Work Sans', sans-serif;
     line-height: 26px;
     letter-spacing: .5px;
     font-weight: 400;
@@ -5953,7 +5953,7 @@ input[type=submit] {
 
 .box-text .content-cta .date {
     font-size: 14px;
-    font-family: silka medium;
+    font-family: 'Work Sans', sans-serif;
     line-height: 24px;
     letter-spacing: .25px;
     font-weight: 400;
@@ -5975,7 +5975,7 @@ input[type=submit] {
 
 .box-map {
     order: 2;
-    background: linear-gradient(to bottom, #F58529 0%, #DD2A7B 100%);
+    background: white;
 }
 
 .box-work-1 {
@@ -6162,7 +6162,7 @@ input[type=submit] {
     list-style: none;
     position: relative;
     display: flex;
-    font-family: silka medium;
+    font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     padding: 5px;
     z-index: 1;
@@ -6290,8 +6290,9 @@ input[type=submit] {
 @media(max-width:1230px) {
     .mansory {
         width: 100%;
-        padding: 40px 15px 80px;
-        grid-template-rows: auto
+        padding: 40px 15px 17.5px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr)
     }
 
     .content-cta {
@@ -6301,8 +6302,8 @@ input[type=submit] {
 
 @media(max-width:960px) {
     .mansory {
-        padding: 40px 30px 80px;
-        grid-template-rows: repeat(6, 280px);
+        padding: 40px 30px 17.5px;
+        grid-template-rows: repeat(6, 1fr);
         grid-template-columns: auto
     }
 
@@ -6330,14 +6331,14 @@ input[type=submit] {
 @media(max-width:600px) {
     .mansory {
         grid-template-rows: auto;
-        padding: 40px 24px 80px
+        padding: 40px 24px 17.5px
     }
 }
 
 @media(max-width:540px) {
     .mansory {
         grid-template-rows: auto;
-        padding: 40px 16px 80px
+        padding: 40px 16px 17.5px
     }
 
     .mansory .box-2w {
@@ -6385,7 +6386,7 @@ input[type=submit] {
 
 h1.single-project-title {
     font-size: 36px;
-    font-family: moranga bold;
+    font-family: 'Work Sans', sans-serif;
     line-height: 48px;
     font-weight: 400;
     color: #0d1117;
@@ -6394,7 +6395,7 @@ h1.single-project-title {
 
 .single-project-text h2 {
     font-size: 26px;
-    font-family: silka medium;
+    font-family: 'Work Sans', sans-serif;
     line-height: 40px;
     letter-spacing: .25px;
     font-weight: 400;
@@ -6405,7 +6406,7 @@ h1.single-project-title {
 
 .single-project-text p {
     font-size: 14px;
-    font-family: silka regular;
+    font-family: 'Work Sans', sans-serif;
     line-height: 26px;
     letter-spacing: .5px;
     font-weight: 400;
@@ -6437,7 +6438,7 @@ h1.single-project-title {
     align-items: center;
     padding: 0 16px;
     border-radius: 19px;
-    font-family: silka medium;
+    font-family: 'Work Sans', sans-serif;
     letter-spacing: .25px;
     font-size: 14px;
     margin-right: 8px;
@@ -6586,7 +6587,7 @@ h1.single-project-title {
 
 .box-utility h3 {
     font-size: 24px;
-    font-family: silka medium;
+    font-family: 'Work Sans', sans-serif;
     line-height: 32px;
     font-weight: 400;
     color: #0d1117;
@@ -6599,7 +6600,7 @@ h1.single-project-title {
 
 .box-utility p {
     font-size: 14px;
-    font-family: silka regular;
+    font-family: 'Work Sans', sans-serif;
     line-height: 26px;
     letter-spacing: .5px;
     font-weight: 400;
@@ -6618,7 +6619,7 @@ h1.single-project-title {
     align-items: center;
     padding: 0 16px;
     border-radius: 19px;
-    font-family: silka medium;
+    font-family: 'Work Sans', sans-serif;
     letter-spacing: .25px;
     font-size: 14px;
     margin-right: 8px;
@@ -6753,7 +6754,7 @@ h1.single-project-title {
 
 .formazione-box h4 {
     font-size: 18px;
-    font-family: silka medium;
+    font-family: 'Work Sans', sans-serif;
     line-height: 24px;
     font-weight: 400;
     color: #0d1117;
@@ -6762,7 +6763,7 @@ h1.single-project-title {
 
 h5 {
     font-size: 14px;
-    font-family: silka regular;
+    font-family: 'Work Sans', sans-serif;
     line-height: 18px;
     font-weight: 400;
     color: #0d1117;

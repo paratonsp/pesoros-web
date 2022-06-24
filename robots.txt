@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pesoros.com/sitemap.xml
